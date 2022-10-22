@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7c26fc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container .password-container{
+    margin: 100px;
+    padding: 10px;
+    min-width: 420px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    box-shadow: 10px 10px 150px rgba(222, 115, 200, 0.5);
+    color: white;
+}
+
+.copy-password input{
+    width: 15rem;
+    height:30px;
+    text-align: center;
+    background-color: #7c26fc;
+    border-color: black;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    pointer-events: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.password-sub-container input{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.password-sub-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+    background: rgba(226, 226, 226, 0.8);
+    padding: 7px;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.password-sub-container #length{
+    width: 40px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.generate-password-btn .generate-btn{
+    padding: 10px;
+    color: white;
+    background: blue;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+button:hover, button:focus{
+    background: rgba(0, 224, 225, 0.7);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
