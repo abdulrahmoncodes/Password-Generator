@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>PASSWORD GENERATOR</title>
+</head>
+<body>
+    <div class="container">
+        <div class="password-container">
+            <h2 class="header">Password Generator</h2>
+            <div class="copy-password">
+                <input type="text" name="password" id="password">
+            </div>
+
+            <div class="password-sub-container">
+                <label for="length"><span>Password length:</span></label>
+                <input type="number" name="number" id="length" class="length">
+            </div>
+
+            <div class="password-sub-container">
+                <span>Include uppercase</span>
+                <input type="checkbox" name="checkbox" id="uppercase" class="uppercase">
+            </div>
+
+            <div class="password-sub-container">
+                <span>Include lowercase</span>
+                <input type="checkbox" name="checkbox" id="lowercase" class="lowercase">
+            </div>
+
+            <div class="password-sub-container">
+                <span>Include numbers</span>
+                <input type="checkbox" name="numbers" id="numbers" class="numbers">
+            </div>
+            
+            <div class="password-sub-container">
+                <span>Include symbols</span>
+                <input type="checkbox" name="checkbox" id="symbols" class="symbols">
+            </div>
+            
+            <div class="generate-password-btn">
+                <button class="generate-btn">Generate password</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
